@@ -51,7 +51,7 @@
 # jobs - a task that can be run
 # Define a series of steps inside a job to exectute the workflow
 # steps: a sequence of tasks or actions that make up a job.
-
+# update
 name: Github action ofr
 on:
   push:
