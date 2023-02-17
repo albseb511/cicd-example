@@ -1,8 +1,8 @@
 const app = require("express")();
 
 app.get("/", (req, res) => {
-  res.send("Success!");
   value = 100;
+  res.send("Success!");
 });
 
 app.listen(8000, () => {
