@@ -54,7 +54,7 @@
 # update
 name: Github action ofr
 on:
-  - push: [master]
+  push: [master]
 jobs:
   build:
     runs-on: ubuntu-latest
