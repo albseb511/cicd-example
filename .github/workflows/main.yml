@@ -1,1 +1,64 @@
 # Workflow
+# YAML -> YAML aint a markup language
+
+# read and understand a series of steps or operations
+# this can be read by the machine to automate tasks
+
+# key: value
+# key - title
+# # value - Website Name
+# title: Website Name
+# description: A website for uploading content
+# age: 30
+# # string, arrays, objects
+
+# # Array
+# tags:
+#   - technology
+#   - images
+#   - creative
+# # Indentation matters
+# # spaces
+
+# # objects
+# address:
+#   street: MG Road
+#   city: Banglore
+#   state: KA
+
+# # Github actions
+# # env variables
+# value: ${{ env.VALUE }}
+# variable: ${{ github.VARIABLE_NAME }}
+# # CONFIGURATION FILE
+# # github
+# # docker
+# # jenkins
+# # aws
+# # package.json -> configuration
+# # ts.config.json
+
+# Github
+# triggered on certain events
+# on push, on pr request
+
+# Workflow ->
+
+# When to run
+# on -> when to trigger the workflow, on push to codebase, raising a pr to codebase
+
+# How to run
+# jobs - a task that can be run
+# Define a series of steps inside a job to exectute the workflow
+# steps: a sequence of tasks or actions that make up a job.
+
+name: Github action ofr
+on:
+  push:
+    branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello World
+      - run: echo "Hello World!"
