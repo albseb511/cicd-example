@@ -61,5 +61,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      # - name: Print Hello World
-      - run: echo "Hello World!"
+      - name: Print Hello World
+        run: echo "Hello World!"
