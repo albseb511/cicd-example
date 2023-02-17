@@ -53,7 +53,8 @@
 # steps: a sequence of tasks or actions that make up a job.
 # update
 name: Github action ofr
-on: push
+on:
+  - push: [master]
 jobs:
   build:
     runs-on: ubuntu-latest
